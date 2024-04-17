@@ -39,18 +39,18 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Características",
+    url: "#Características",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Preço",
+    url: "#Preço",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Como usar",
+    url: "#Como usar",
   },
   {
     id: "3",
@@ -59,13 +59,13 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
+    title: "Nova conta",
     url: "#signup",
     onlyMobile: true,
   },
   {
     id: "5",
-    title: "Sign in",
+    title: "Login",
     url: "#login",
     onlyMobile: true,
   },
@@ -78,9 +78,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Geração de fotos",
+  "Aprimoramento de fotos",
+  "Integração Perfeita",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,55 +94,55 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
+    title: "Reconhecimento de voz",
+    text: "Permita que o chatbot entenda e responda aos comandos de voz, facilitando a interação dos usuários com o aplicativo com as mãos livres.",
+    date: "Maio 2023",
+    status: "Pronto",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
+    title: "Gamificação",
+    text: "Adicione elementos semelhantes a jogos, como emblemas ou placares, para incentivar os usuários a interagir com o chatbot com mais frequência.",
+    date: "Maio 2023",
+    status: "progresso",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
+    title: "Personalização do chatbot",
+    text: "Permita que os usuários personalizem a aparência e o comportamento do chatbot, tornando-o mais envolvente e divertido de interagir.",
+    date: "Maio 2023",
+    status: "Feito",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
+    title: "Integração com APIs",
+    text: "Permita que o chatbot acesse fontes de dados externas, como APIs meteorológicas ou APIs de notícias, para fornecer recomendações mais relevantes.",
+    date: "Maio 2023",
+    status: "progresso",
     imageUrl: roadmap4,
   },
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Com automação inteligente e segurança de alto nível, é a solução perfeita para equipes que buscam trabalhar de maneira mais inteligente.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "Integração perfeita",
     text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Automação Inteligente",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Segurança de alto nível",
   },
 ];
 
@@ -208,35 +208,35 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Basico",
+    description: "Chatbot de IA, recomendações personalizadas",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Um chatbot de IA que pode entender suas dúvidas",
+      "Recomendações personalizadas com base nas suas preferências",
+      "Capacidade de explorar o aplicativo e seus recursos sem nenhum custo",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    description: "Chatbot de IA avançado, suporte prioritário, painel analítico",
+    price: "49.99",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Um chatbot de IA avançado que pode entender consultas complexas",
+      "Um painel analítico para rastrear suas conversas",
+      "Suporte prioritário para resolver problemas rapidamente",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    title: "Empreendimento",
+    description: "Chatbot de IA personalizado, análises avançadas, conta dedicada",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Um chatbot de IA que pode entender suas dúvidas",
+      "Recomendações personalizadas com base nas suas preferências",
+      "Capacidade de explorar o aplicativo e seus recursos sem nenhum custo",
     ],
   },
 ];
@@ -244,16 +244,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Pergunte qualquer coisa",
+    text: "Permite que os usuários encontrem rapidamente respostas para suas perguntas sem precisar pesquisar em várias fontes.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Melhore todos os dias",
+    text: "O aplicativo usa processamento de linguagem natural para entender as dúvidas dos usuários e fornecer respostas precisas e relevantes.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +261,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Conecte-se em qualquer lugar",
+    text: "Conecte-se ao chatbot AI de qualquer lugar, em qualquer dispositivo, tornando-o mais acessível e conveniente.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Resposta rápida",
+    text: "Permite que os usuários encontrem rapidamente respostas para suas perguntas sem precisar pesquisar em várias fontes.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +278,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Pergunte qualquer coisa",
+    text: "Permite que os usuários encontrem rapidamente respostas para suas perguntas sem precisar pesquisar em várias fontes.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Melhore todos os dias",
+    text: "O aplicativo usa processamento de linguagem natural para entender as dúvidas dos usuários e fornecer respostas precisas e relevantes.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
